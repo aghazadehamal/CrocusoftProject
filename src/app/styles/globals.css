@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+
+@layer utilities {
+    .scale-55 { transform: scale(0.5); }
+    .scale-80 { transform: scale(0.8); }
+    .scale-100 { transform: scale(1); }
+  }
+  

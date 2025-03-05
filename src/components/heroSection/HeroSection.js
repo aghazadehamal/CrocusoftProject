@@ -17,7 +17,8 @@ export default function HeroSection() {
       }`}
     >
 
-      <div className="absolute left-0 top-1/5 flex flex-col gap-10 mt-40">
+<div className="hidden md:flex absolute left-0 top-1/5 flex-col gap-10 mt-40">
+
   <WhiteCube size="small" style={{ transform: "translate(-50px, -70px)" }} />
   <PurpleCube size="small" style={{ transform: "translate(-20px, -250px)" }} />
   <WhiteCube size="big" style={{ transform: "translate(-10px, -250px)" }} />
@@ -25,7 +26,7 @@ export default function HeroSection() {
 
 
 
-      <div className="max-w-full px-32">
+     <div className="max-w-full px-6 md:px-32">
         <div className="mb-6 flex flex-wrap gap-4 items-center">
           <a href="#" className="bg-customPurple text-white px-4 py-2 rounded-md text-[13px] tracking-[0.54px]">
             {translations.hero.sendProject}
@@ -42,20 +43,21 @@ export default function HeroSection() {
           </span>
         </div>
 
-        <div className="w-4/6 pr-6">
-          <h1 className="font-semibold text-[70px] leading-[76px] tracking-[1.6px]">
-            <span className="">{translations.hero.title}</span>{" "}
+        <div className="w-full md:w-4/6 pr-0 md:pr-6">
+          <h1 className="font-semibold text-[40px] md:text-[70px] leading-[46px] md:leading-[76px] tracking-[1.6px]">
+            <span>{translations.hero.title}</span>{" "}
             <span className="text-customPurple -600">{translations.hero.titleHighlight}</span>{" "}
-            <span className="">{translations.hero.titleLast}</span>{" "}
+            <span>{translations.hero.titleLast}</span>{" "}
           </h1>
         </div>
-        <p className="text-gray-600 text-[20px] mt-6 tracking-[0.54px] w-10/12">
+        <p className="text-gray-600 text-[16px] md:text-[20px] mt-6 tracking-[0.54px] w-full md:w-10/12">
           {translations.hero.description}
         </p>
       </div>
 
  
-      <div className="absolute right-0 top-1/5 flex flex-col gap-10 mt-60">
+     <div className="hidden md:flex absolute right-0 top-1/5 flex-col gap-10 mt-60">
+
       <WhiteCube 
     size="tiny" 
     color="#ebebf2" 

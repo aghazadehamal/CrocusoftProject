@@ -14,7 +14,7 @@ export default function Services() {
   const [selectedService, setSelectedService] = useState(services[0]);
 
   return (
-    <div className="flex h-screen pl-20 pr-5">
+    <div className="flex h-screen pl-20 pr-2">
      
       <div className="w-2/3 bg-customPurple text-white p-10 ">
       <div className='w-full mt-10'>

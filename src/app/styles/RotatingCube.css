@@ -1,7 +1,7 @@
 .scene {
     width: 200px;
     height: 200px;
-    perspective: 800px; /* Perspektivi artırdım */
+    perspective: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@
     height: 100px;
     position: relative;
     transform-style: preserve-3d;
-    transform: rotateX(-30deg) rotateY(-45deg); /* Başlanğıc dərəcə */
+    transform: rotateX(-30deg) rotateY(-45deg);
     animation: rotateCube 5s linear infinite;
   }
   

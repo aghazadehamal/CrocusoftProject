@@ -1,0 +1,36 @@
+{
+    "menu": {
+      "works": "İşlər",
+      "services": "Xidmətlərimiz",
+      "clients": "Müştərilər",
+      "blogs": "Bloqlar",
+      "choose": "Bizi seç",
+      "contact": "Bizimlə Əlaqə",
+      "about": "Haqqımızda",
+      "academy": "Crocusoft Academy"
+    },
+    "contact": {
+        "writeUs": "Bizə Yazın", 
+        "email": "sales@crocusoft.com",
+        "visitUs": "Gəlin danışaq",
+        "callUs": "Zəng Edin",
+        "phone": "+994512060920",
+        "address": "Bakı, Nizami, Heydər Əliyev pr 115, AZ1029",
+        "whatsapp": "WhatsApp"
+      },
+    "hero": {
+      "sendProject": "LAYİHƏNİ GÖNDƏR",
+      "sendProjectDesc": "Layihəni göndər, təklifini al >",
+      "presentation": "TƏQDIMAT",
+      "presentationDesc": "Şirkət profili təqdimatı >",
+      "title": "Biznesinizə Dəstək olan",
+      "titleHighlight": "Proqram Təminatı",
+      "titleLast": "həlləri",
+      "description": "Parlaq ideyalarınızı və məsuliyyətli proyektlərinizi bizə etibar edin –  Yerli mühəndis komandamız onları sehrli kodlar, ağıllı beyinlər və düzgün zamanlama ilə biznesiniz üçün ən yaxşı nəticələr yaradan proqram təminatı həllərinə çevirəcək."
+    },
+    "language": {
+      "az": "AZ",
+      "en": "EN"
+    }
+  }
+  

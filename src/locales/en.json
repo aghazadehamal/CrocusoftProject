@@ -1,0 +1,34 @@
+{
+    "menu": {
+      "works": "Works",
+      "services": "Our Services",
+      "clients": "Clients",
+      "blogs": "Blogs",
+      "choose": "Choose Us",
+      "contact": "Contact Us",
+      "about": "About Us",
+      "academy": "Crocusoft Academy"
+    },
+    "contact": {
+        "writeUs": "Write to Us", 
+        "email": "sales@crocusoft.com",
+        "callUs": "Call Us",
+        "phone": "+994512060920",
+        "address": "Baku, Nizami, Heydar Aliyev pr 115, AZ1029",
+        "whatsapp": "WhatsApp"
+      },
+    "hero": {
+      "sendProject": "SEND YOUR PROJECT",
+      "sendProjectDesc": "Send your project, get your offers >",
+      "presentation": "PRESENTATION",
+      "presentationDesc": "Company profile presentation >",
+      "title": "Software solutions",
+      "titleHighlight": "that change your business",
+      "description": "Trust us with your brilliant ideas, and the Crocusoft team will use all advantages of digital transformation to turn them into profitable businesses."
+    },
+    "language": {
+      "az": "AZ",
+      "en": "EN"
+    }
+  }
+  

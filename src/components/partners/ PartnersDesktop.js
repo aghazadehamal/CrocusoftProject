@@ -13,6 +13,8 @@ export default function PartnersDesktop() {
       <div className="grid grid-cols-4 gap-20 justify-center items-center px-28">
         {partners.map((partner) => (
           <div key={partner.id} className="flex justify-center items-center">
+           <a href={partner.slug} target="_blank" rel="noopener noreferrer">
+
             <Image
               src={partner.image}
               alt={partner.name}
@@ -20,6 +22,8 @@ export default function PartnersDesktop() {
               height={55}
               className="w-full h-[55px] object-contain grayscale hover:grayscale-0 transition duration-300"
             />
+            </a>
+           
           </div>
         ))}
       </div>

@@ -4,6 +4,7 @@ import { useMenu } from "@/context/MenuContext";
 import { useI18n } from "@/context/I18nContext";
 import WhiteCube from "@/app/WhiteCube";
 import PurpleCube from "@/app/PurpleCube";
+import Link from "next/link";
 
 export default function HeroSectionDesktop() {
   const { menuOpen } = useMenu();
@@ -24,14 +25,14 @@ export default function HeroSectionDesktop() {
 
       <div className="max-w-full px-6 md:px-32">
         <div className="mb-6 flex flex-wrap gap-4 items-center">
-          <a href="#" className="bg-customPurple text-white px-4 py-2 rounded-md text-[13px] tracking-[0.54px]">
+          <a href="choose" className="bg-customPurple text-white px-4 py-2 rounded-md text-[13px] tracking-[0.54px]">
             {translations.hero.sendProject}
           </a>
           <span className="text-gray-600 tracking-wide text-lg">{translations.hero.sendProjectDesc}</span>
 
-          <a href="#" className="bg-customGreen text-white px-4 py-2 rounded-md text-[13px] tracking-[0.54px]">
+          <Link href="/presentation/presentation.pdf" className="bg-customGreen text-white px-4 py-2 rounded-md text-[13px] tracking-[0.54px]">
             {translations.hero.presentation}
-          </a>
+          </Link>
           <span className="text-gray-600 tracking-wide text-lg">{translations.hero.presentationDesc}</span>
         </div>
 

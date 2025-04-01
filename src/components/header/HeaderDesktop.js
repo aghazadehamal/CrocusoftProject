@@ -83,9 +83,9 @@ export default function HeaderDesktop() {
             >
               <Image src="/telephone.png" alt="WhatsApp ilə əlaqə" width={20} height={20} />
             </a>
-            <a className="bg-customPurple text-white px-4 py-2 rounded-lg">
+            <Link href="/choose" className="bg-customPurple text-white px-4 py-2 rounded-lg">
               {translations.menu.contact} 
-            </a>
+            </Link>
           </div>
 
           <div className="flex items-center gap-2 text-gray-600">

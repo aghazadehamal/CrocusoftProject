@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { useMenu } from "@/context/MenuContext";
 import { services } from "./servicesData";
+import  Link  from 'next/link';
 
 export default function ServicesDesktop() {
   const [selectedService, setSelectedService] = useState(services[0]);
@@ -55,7 +56,10 @@ export default function ServicesDesktop() {
                 <li key={index} className="text-lg">• {feature}</li>
               ))}
             </ul>
-            <button className="mt-6 bg-white text-purple-700 px-5 py-3 rounded-lg shadow-md text-lg font-medium">➡</button>
+            <p className="mt-10">
+            <Link href="/services" className=" bg-white text-purple-700 px-5 py-3 rounded-lg shadow-md text-lg font-medium mt-10">➡</Link>
+            </p>
+           
           </div>
         </div>
       </div>

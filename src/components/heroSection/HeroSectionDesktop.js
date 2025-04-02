@@ -30,7 +30,7 @@ export default function HeroSectionDesktop() {
           </a>
           <span className="text-gray-600 tracking-wide text-lg">{translations.hero.sendProjectDesc}</span>
 
-          <Link href="/presentation/presentation.pdf" className="bg-customGreen text-white px-4 py-2 rounded-md text-[13px] tracking-[0.54px]">
+          <Link target="_blank" href="/presentation/presentation.pdf" className="bg-customGreen text-white px-4 py-2 rounded-md text-[13px] tracking-[0.54px]">
             {translations.hero.presentation}
           </Link>
           <span className="text-gray-600 tracking-wide text-lg">{translations.hero.presentationDesc}</span>

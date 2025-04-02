@@ -71,20 +71,14 @@ export default function FooterDesktop() {
 
       <div className="pt-6 text-lg flex justify-center items-center gap-6 mt-28">
         <div className="flex gap-6 flex-wrap justify-center">
-          {[
-            "İşlər",
-            "Xidmətlərimiz",
-            "Müştərilər",
-            "Bloqlar",
-            "Bizi seç",
-            "Bizimlə Əlaqə",
-            "Haqqımızda",
-            "Crocusoft Academy",
-          ].map((item, index) => (
-            <a key={index} href="#" className="hover:text-gray-400">
-              {item}
-            </a>
-          ))}
+          <a href="/works" >İşlər</a>
+          <a href="/services" >Xidmətlərimiz</a>
+          <a href="/clients" >Müştərilər</a>
+          <a href="/blogs" >Bloqlar</a>
+          <a href="/choose" >Bizimlə Əlaqə</a>
+          <a href="/about" >Haqqımızda</a>
+          <a href="/academy" >Crocusoft Academy</a>
+          
         </div>
       </div>
 

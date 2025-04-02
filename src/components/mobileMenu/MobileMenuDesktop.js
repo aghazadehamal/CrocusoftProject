@@ -9,7 +9,7 @@ import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import Scene from "../spinnningCube/SpinningCube";
 
 export default function MobileMenuDesktop() {
@@ -45,7 +45,7 @@ export default function MobileMenuDesktop() {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <h3 className="text-base text-gray-400 leading-10 uppercase tracking-wide">{translations.contact.writeUs}</h3>
-            <p className="text-xl leading-10   text-black">{translations.contact.email}</p>
+            <a href="mailto:sales@crocusoft.com"  className="text-xl leading-10   text-black">{translations.contact.email}</a>
           </motion.div>
 
           <motion.div
@@ -54,7 +54,7 @@ export default function MobileMenuDesktop() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <h3 className="text-base text-gray-400  leading-10  uppercase tracking-wide">{translations.contact.visitUs}</h3>
-            <p className="text-xl leading-10   text-black">{translations.contact.address}</p>
+            <a  href="https://www.google.com/maps/place/Crocusoft/@40.3827525,49.8664001,18z/data=!3m1!4b1!4m5!3m4!1s0x40307dc65fb18da7:0xafbb4d94e4be6a00!8m2!3d40.3826554!4d49.8673458" target="_blank" className="text-xl leading-10   text-black">{translations.contact.address}</a>
           </motion.div>
 
           <div className="hidden md:flex absolute left-0 top-1/5 flex-col gap-10 mt-40">
@@ -78,7 +78,7 @@ export default function MobileMenuDesktop() {
             transition={{ duration: 0.5, delay: 0.4 }}
           >
             <h3 className="text-base leading-10 text-gray-400   uppercase tracking-wide">{translations.contact.callUs}</h3>
-            <p className="text-xl leading-10    text-black">{translations.contact.phone}</p>
+            <a href="tel:+994512060920" className="text-xl leading-10    text-black">{translations.contact.phone}</a>
           </motion.div>
 
           <motion.div
@@ -87,10 +87,10 @@ export default function MobileMenuDesktop() {
             animate={{ y: menuOpen ? 0 : -20, opacity: menuOpen ? 1 : 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
           >
-            <h3 className="text-base text-gray-400  leading-10  uppercase tracking-wide">{translations.contact.whatsapp}</h3>
-            <p className="text-xl leading-10   text-black flex items-center gap-2">
-              <FaFacebook className="text-gray-500" /> {translations.contact.phone}
-            </p>
+            <a href="https://api.whatsapp.com/send?phone=994512060920" target="_blank"  className="text-base text-gray-400  leading-10  uppercase tracking-wide">{translations.contact.whatsapp}</a>
+            <a target="_blank"  href="https://api.whatsapp.com/send?phone=994512060920" className="text-xl leading-10   text-black flex items-center gap-2">
+              <FaWhatsapp className="text-gray-500" /> {translations.contact.phone}
+            </a>
           </motion.div>
 
           <motion.div
@@ -101,9 +101,23 @@ export default function MobileMenuDesktop() {
           >
             <h3 className="text-base leading-10 text-gray-400   uppercase tracking-wide">Bizi İzləyin</h3>
             <div className="flex items-center gap-4 mt-2">
+             
+              <a target="_blank" href="https://www.facebook.com/crocusoft/" >
               <FaFacebook className="text-gray-500 text-2xl cursor-pointer hover:text-blue-600 transition" />
+              </a>
+
+              <a target="_blank" href="https://www.instagram.com/crocusoft.llc/" >
               <FaInstagram className="text-gray-500 text-2xl cursor-pointer hover:text-pink-600 transition" />
+
+              </a>
+
+              <a target="_blank" href="https://www.linkedin.com/company/crocusoft/mycompany/" >
               <FaLinkedin className="text-gray-500 text-2xl cursor-pointer hover:text-blue-800 transition" />
+
+              </a>
+             
+            
+              
             </div>
           </motion.div>
         </motion.div>

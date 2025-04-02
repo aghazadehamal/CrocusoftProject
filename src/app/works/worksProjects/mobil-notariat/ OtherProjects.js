@@ -4,7 +4,42 @@ import Image from "next/image";
 import { useRef, useEffect, useState } from "react";
 
 const projects = [
- 
+  {
+    id: 1,
+    title: "Mobil Notariat",
+    category: "Elektron hökumət, Həyat tərzi",
+    image: "/otherProjects/notariat.png",
+  },
+  {
+    id: 2,
+    title: "hr.kapitalbank.az",
+    category: "İnsan Resursları",
+    image: "/otherProjects/kapitalBank.png",
+  },
+  {
+    id: 3,
+    title: "Mobil Notariat",
+    category: "Elektron hökumət, Həyat tərzi",
+    image: "/otherProjects/notariat.png",
+  },
+  {
+    id: 4,
+    title: "hr.kapitalbank.az",
+    category: "İnsan Resursları",
+    image: "/otherProjects/kapitalBank.png",
+  },
+  {
+    id: 5,
+    title: "Mobil Notariat",
+    category: "Elektron hökumət, Həyat tərzi",
+    image: "/otherProjects/notariat.png",
+  },
+  {
+    id: 6,
+    title: "hr.kapitalbank.az",
+    category: "İnsan Resursları",
+    image: "/otherProjects/kapitalBank.png",
+  },
 ];
 
 export default function OtherProjects() {
@@ -40,7 +75,7 @@ export default function OtherProjects() {
         {projects.map((project) => (
           <div
             key={project.id}
-            className="min-w-[280px] sm:min-w-[320px] md:min-w-[400px] bg-[#f5f3fc] rounded-lg p-4 sm:p-6 flex-shrink-0"
+            className="min-w-[280px] sm:min-w-[320px] md:min-w-[500px] bg-[#f5f3fc] rounded-lg p-4 sm:p-6 flex-shrink-0"
           >
             <div className="w-full aspect-[3/2] mb-4 sm:mb-6 relative">
               <Image

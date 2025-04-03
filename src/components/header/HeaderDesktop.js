@@ -89,24 +89,43 @@ export default function HeaderDesktop() {
           </div>
 
           <div className="flex items-center gap-2 text-gray-600">
-            <button
-              className={`text-sm ${locale === "az" ? "font-bold text-black" : "text-gray-400"}`}
-              onClick={() => changeLanguage("az")}
-            >
-              {translations.language.az} 
-            </button>
-            <span className="text-gray-400">|</span>
-            <button
-              className={`text-sm ${locale === "en" ? "font-bold text-black" : "text-gray-400"}`}
-              onClick={() => changeLanguage("en")}
-            >
-              {translations.language.en} 
-            </button>
-          </div>
+            <p className="mr-6">
+            <a
+    className={`text-lg  ${locale === "az" ? "font-semibold text-black border-b-2 border-black " : "text-gray-400 cursor-pointer   "}`}
+    onClick={() => changeLanguage("az")}
+  >
+    {translations.language.az}
+  </a>
+            </p>
+ 
+  
+  <a
+    className={`text-lg  ${locale === "en" ? "font-semibold text-black border-b-2 border-black " : "text-gray-400  cursor-pointer"}`}
+    onClick={() => changeLanguage("en")}
+  >
+    {translations.language.en}
+  </a>
+</div>
 
-          <button className="text-black text-2xl" onClick={() => setMenuOpen(!menuOpen)}>
-            &#9776;
-          </button>
+
+<div
+  className="flex flex-col justify-center items-center w-8 h-8 cursor-pointer"
+  aria-label="Toggle navigation"
+  aria-expanded={menuOpen ? "true" : "false"}
+  onClick={() => setMenuOpen(!menuOpen)}
+>
+  <span
+    className={`block w-6 h-0.5 bg-black transition-all duration-300 ${
+      menuOpen ? "rotate-45 translate-y-1.5" : ""
+    }`}
+  ></span>
+  <span
+    className={`block w-6 h-0.5 bg-black mt-1 transition-all duration-300 ${
+      menuOpen ? "-rotate-45 -translate-y-1.05" : ""
+    }`}
+  ></span>
+</div>
+
         </div>
       </header>
 

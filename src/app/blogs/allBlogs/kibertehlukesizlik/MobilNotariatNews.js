@@ -42,7 +42,7 @@ export default function MobilNotariatNews() {
       </div>
 
      
-      <div className="mt-10 flex md:hidden justify-center gap-4">
+      {/* <div className="mt-10 flex md:hidden justify-center gap-4">
         {["/blogsIcon/facebookIcon.png", "/blogsIcon/twitterIcon.png", "/blogsIcon/linkedinIcon.png"].map((icon, index) => (
           <div
             key={index}
@@ -51,17 +51,29 @@ export default function MobilNotariatNews() {
             <Image src={icon} alt="icon" width={20} height={20} />
           </div>
         ))}
-      </div>
+      </div> */}
 
       <div className="hidden md:flex flex-col gap-4 absolute right-8 lg:right-32 top-[75%]">
-        {["/blogsIcon/facebookIcon.png", "/blogsIcon/twitterIcon.png", "/blogsIcon/linkedinIcon.png"].map((icon, index) => (
-          <div
-            key={index}
+      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcrocusoft.com%2Fen%2FBlog%2FDetails%2Fmobilnotariat-new"
+          
             className="w-16 h-16 rounded-full bg-white flex items-center justify-center shadow"
           >
-            <Image src={icon} alt="icon" width={20} height={20} />
-          </div>
-        ))}
+            <Image src="/blogsIcon/facebookIcon.png" alt="icon" width={20} height={20} />
+          </a>
+
+          <a target="_blank" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fcrocusoft.com%2Fen%2FBlog%2FDetails%2Fmobilnotariat-new&text=NEW+in+%22Mobile+Notary%22!+"
+          
+          className="w-16 h-16 rounded-full bg-white flex items-center justify-center shadow"
+        >
+          <Image src="/blogsIcon/linkedinIcon.png" alt="icon" width={20} height={20} />
+        </a>
+
+        <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fcrocusoft.com%2Fen%2FBlog%2FDetails%2Fmobilnotariat-new&title=NEW+in+%22Mobile+Notary%22!+"
+          
+          className="w-16 h-16 rounded-full bg-white flex items-center justify-center shadow"
+        >
+          <Image src="/blogsIcon/twitterIcon.png" alt="icon" width={20} height={20} />
+        </a>
       </div>
     </section>
   );

@@ -8,18 +8,18 @@ export default function FooterDesktop() {
       <div className="container mx-auto px-10 grid grid-cols-4 gap-8">
         <div>
           <h4   className="text-gray-400 text-lg uppercase mb-2">Bizə Yazın</h4>
-          <a href="mailto:academy@crocusoft.com"  className="text-lg">sales@crocusoft.com</a>
+          <a href="mailto:academy@crocusoft.com"  className="text-xl">sales@crocusoft.com</a>
         </div>
         <div>
-          <h4 className="text-gray-400 text-lg uppercase mb-2">Zəng Edin</h4>
-          <a href=" tel:+994102322535" className="text-lg">+994512060920</a>
+          <h4 className="text-gray-400 text-xl uppercase mb-2">Zəng Edin</h4>
+          <a href=" tel:+994102322535" className="text-xl">+994512060920</a>
         </div>
         <div>
-          <h4 className="text-gray-400 text-lg uppercase mb-2">Gəlin, Danışaq</h4>
-          <a href="https://www.google.com/maps/place/Crocusoft/@40.3827525,49.8664001,18z/data=!3m1!4b1!4m5!3m4!1s0x40307dc65fb18da7:0xafbb4d94e4be6a00!8m2!3d40.3826554!4d49.8673458" className="text-lg">Bakı, Nizami, Heydər Əliyev pr 115, AZ1029</a>
+          <h4 className="text-gray-400 text-xl uppercase mb-2">Gəlin, Danışaq</h4>
+          <a href="https://www.google.com/maps/place/Crocusoft/@40.3827525,49.8664001,18z/data=!3m1!4b1!4m5!3m4!1s0x40307dc65fb18da7:0xafbb4d94e4be6a00!8m2!3d40.3826554!4d49.8673458" className="text-xl">Bakı, Nizami, Heydər Əliyev pr 115, AZ1029</a>
         </div>
         <div>
-          <h4 className="text-gray-400 text-lg uppercase mb-2">Bizi İzləyin</h4>
+          <h4 className="text-gray-400 text-xl uppercase mb-2">Bizi İzləyin</h4>
           <div className="flex gap-4 mt-2 justify-center">
          
          <a target="_blank" href="https://www.facebook.com/crocusoft/">

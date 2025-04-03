@@ -23,7 +23,7 @@ export default function ServicesProjectsDesktop() {
           <button
             key={cat}
             onClick={() => setActiveCategory(cat)}
-            className={`hover:text-purple-600 transition ${activeCategory === cat ? "text-purple-600 font-bold" : ""}`}
+            className={`text-customPurple transition ${activeCategory === cat ? "text-customPurple font-semibold" : ""}`}
           >
             {cat}
           </button>

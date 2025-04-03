@@ -38,7 +38,7 @@ export default function ServicesProjectsDesktop() {
               alt={project.name}
               width={500}
               height={300}
-              className="w-full h-auto rounded-lg transform transition duration-300 hover:scale-105"
+              className="h-[342px] w-[515px] rounded-lg transform transition duration-300 hover:scale-105"
             />
             <h3 className="text-lg font-semibold mt-3">{project.name}</h3>
             <p className="text-gray-600 mt-2">

@@ -91,7 +91,7 @@ export default function HeaderDesktop() {
           <div className="flex items-center gap-2 text-gray-600">
             <p className="mr-6">
             <a
-    className={`text-lg  ${locale === "az" ? "font-semibold text-black border-b-2 border-black " : "text-gray-400 cursor-pointer   "}`}
+    className={`text-lg  ${locale === "az" ? "font-normal text-black border-b-2 border-black " : "text-gray-400 cursor-pointer   "}`}
     onClick={() => changeLanguage("az")}
   >
     {translations.language.az}
@@ -100,7 +100,7 @@ export default function HeaderDesktop() {
  
   
   <a
-    className={`text-lg  ${locale === "en" ? "font-semibold text-black border-b-2 border-black " : "text-gray-400  cursor-pointer"}`}
+    className={`text-lg  ${locale === "en" ? "font-normal text-black border-b-2 border-black " : "text-gray-400  cursor-pointer"}`}
     onClick={() => changeLanguage("en")}
   >
     {translations.language.en}

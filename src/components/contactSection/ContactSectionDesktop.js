@@ -30,7 +30,7 @@ export default function ContactSectionDesktop() {
       <div className="absolute right-0 top-1/4 flex flex-col gap-10">
         <WhiteCube size="small" color="#ebebf2" style={{ transform: "translate(-320px, 90px)" }} />
         <PurpleCube size="small" color="#bfafe9" style={{ transform: "translate(-50px, -10px)" }} />
-        <WhiteCube size="huge" color="#ebebf2" style={{ transform: "translate(-40px, -250px)" }} />
+        <WhiteCube size="huge" color="#ebebf2" style={{ transform: "translate(-40px, -250px)" }} />=
       </div>
     </div>
   );
